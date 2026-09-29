@@ -91,11 +91,23 @@ export const skillGroups = [
   },
   {
     title: "Languages, OS & Tools",
-    items: ["Python", "Bash", "SQL", "Linux", "Ubuntu", "Debian", "Git", "GitHub"],
+    items: ["Go", "Bash", "SQL", "Linux", "Ubuntu", "Debian", "Git", "GitHub"],
   },
 ];
 
 export const projects = [
+  {
+    title: "JobRadar",
+    stack: ["Next.js", "TypeScript", "FastAPI", "Go", "SQLite", "AI"],
+    summary:
+      "AI-powered job search intelligence platform that helps users discover better-fit roles through explainable job analysis and matching.",
+    details: [
+      "Built a polished Next.js dashboard with a FastAPI service for job search, resume analysis, and role matching",
+      "Supports persisted authentication, live job providers, and deterministic AI-style analysis with optional model integrations",
+    ],
+    highlight: "AI-powered job matching",
+    link: "https://github.com/Swastik258/job-rader",
+  },
   {
     title: "Self-Healing Infrastructure System",
     stack: ["AWS Lambda", "EC2", "CloudWatch", "SNS", "Terraform"],
